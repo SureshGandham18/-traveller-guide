@@ -83,13 +83,14 @@ const Imag = styled.div`
 background-image: url('https://4.imimg.com/data4/SV/GV/MY-10346591/tour-guide-for-jaipur-rajsthan-north-india-500x500.jpg');
 background-repeat: no-repeat;
 background-size: cover;
-height: 500px;
+height: 400px;
 width: 1000px;
 align-items: center;
 margin-left: 12%;
 margin-top:-40px;
 margin-bottom: 80px;
 border-radius: 20%;
+// border:23px solid white;
 h2{
   font-size:50px;
   padding-left: 80px;
@@ -100,8 +101,31 @@ h2{
 const Container = styled.div`
   border:2px solid white;
   display:flex;
-  justify-content:space-between;
+  justify-content:center;
   flex-wrap:wrap;
+  padding:2rem;
 
 `;
-const Box = styled.div``;
+const Box = styled.div`
+  margin:2rem;
+  padding:2rem;
+  background-color:white;
+  img{
+    border-radius:15%;
+  }
+  border-radius:15%;
+  button{
+    cursor: pointer;
+    background-color: skyblue;
+    border: none;
+    padding: 1rem;
+    color: ;
+    border-radius: 5px;
+    transition: all 0.5s;
+    font-weight: 500;
+    width: 100%;
+    &:hover{
+        background-color: #009AEE;
+    }
+}
+`;
