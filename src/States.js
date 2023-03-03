@@ -1,12 +1,11 @@
 import React from 'react';
-// import './states.css';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 const States = () => {
   return (
     <>
       <Imag>
-        <h2>Have the most Unique Experience</h2>
+        <h2>HAVE THE MOST UNIQUE EXPERIENCE</h2>
       </Imag>
       <Container>
         <Box>
@@ -18,7 +17,7 @@ const States = () => {
           <br />
           <Link to={'./andhra'}>
             <button>
-              <span>Visit Andhra</span>
+              <span>Visit ANDHRA </span>
             </button>
           </Link>
         </Box>
@@ -31,7 +30,7 @@ const States = () => {
           <br />
           <Link to={'./tamil'}>
             <button>
-              <span>Visit Tamil Nadu</span>
+              <span>Visit TAMILNADU</span>
             </button>
           </Link>
         </Box>
@@ -44,7 +43,7 @@ const States = () => {
           <br />
           <Link to={'./telan'}>
             <button>
-              <span>Visit Telangana</span>
+              <span>Visit TELANGANA</span>
             </button>
           </Link>
         </Box>
@@ -57,7 +56,7 @@ const States = () => {
           <br />
           <Link to={'./punjab'}>
             <button>
-              <span>Visit Punjab</span>
+              <span>Visit PUNJAB</span>
             </button>
           </Link>
         </Box>
@@ -70,7 +69,20 @@ const States = () => {
           <br />
           <Link to={'./karnataka'}>
             <button>
-              <span>Visit Karnataka</span>
+              <span>Visit KARNATAKA</span>
+            </button>
+          </Link>
+        </Box>
+        <Box>
+          <img
+            src="https://www.gujarattourism.com/content/dam/gujrattourism/images/homebanner/winterbanner.jpg"
+            height="200px"
+            width="300px"
+          />
+          <br />
+          <Link to={'./karnataka'}>
+            <button>
+              <span>Visit GUJARAT</span>
             </button>
           </Link>
         </Box>
@@ -92,40 +104,44 @@ margin-bottom: 80px;
 border-radius: 20%;
 // border:23px solid white;
 h2{
-  font-size:50px;
-  padding-left: 80px;
-  padding-top: 150px;
+  font-size:45px;
+  padding:100px;
   color: black;
+}
+@media(max-width:768px){
+  height:50%;
+  width:75%;
 }
 `;
 const Container = styled.div`
-  border:2px solid white;
+  border:2px solid BLACK;
   display:flex;
   justify-content:center;
   flex-wrap:wrap;
-  padding:2rem;
+  padding:1rem;
 
 `;
 const Box = styled.div`
-  margin:2rem;
+  margin:1rem;
   padding:2rem;
   background-color:white;
   img{
-    border-radius:15%;
+    border-radius:5px;
   }
-  border-radius:15%;
+  border-radius:5px;
   button{
     cursor: pointer;
     background-color: skyblue;
     border: none;
     padding: 1rem;
-    color: ;
+    color:white;
     border-radius: 5px;
     transition: all 0.5s;
-    font-weight: 500;
+    font-size:25px;
     width: 100%;
     &:hover{
         background-color: #009AEE;
+        color:black;
     }
 }
 `;

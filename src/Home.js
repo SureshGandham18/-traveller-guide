@@ -48,7 +48,7 @@ const Btn = styled.div`
   transition:0.2s;
   &:hover{
     margin-top:-5px;
-    background-color:lightpink;
+    background-color:#009AEE;
     color:black;
     padding:13px;
     border-radius:15px
