@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { SiYourtraveldottv } from 'react-icons/si';
 import { AiFillHome } from 'react-icons/ai';
-import { IoIosArrowBack } from 'react-icons/io';
+import { IoIosContact } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 export default function Header() {
   return (
@@ -23,8 +23,8 @@ export default function Header() {
           </div>
 
           <div style={{ marginRight: '10px', marginTop: '5px' }}>
-            <IoIosArrowBack size={25} />
-            Back
+            <IoIosContact size={30} />
+            Contact
           </div>
         </Font>
       </div>
@@ -34,6 +34,7 @@ export default function Header() {
 const Head = styled.div`
   background-color:skyblue;
   margin-top:-8px;
+  margin-left:-10px;
   height:60px;
   width:100%;
   position:fixed;
@@ -45,5 +46,6 @@ const Font = styled.div`
   padding-top:8px;
   padding-right:30px;
   display:flex;
+
   
 `;

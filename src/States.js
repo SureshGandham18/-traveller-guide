@@ -93,7 +93,7 @@ const States = () => {
 export default States;
 const Imag = styled.div`
 background-image: url('https://4.imimg.com/data4/SV/GV/MY-10346591/tour-guide-for-jaipur-rajsthan-north-india-500x500.jpg');
-background-repeat: no-repeat;
+// background-repeat: no-repeat;
 background-size: cover;
 height: 400px;
 width: 1000px;
@@ -108,7 +108,7 @@ h2{
   padding:100px;
   color: black;
 }
-@media(max-width:768px){
+@media(max-width:1024px){
   height:50%;
   width:75%;
 }
@@ -136,7 +136,7 @@ const Box = styled.div`
     padding: 1rem;
     color:white;
     border-radius: 5px;
-    transition: all 0.5s;
+    transition:  0.5s;
     font-size:25px;
     width: 100%;
     &:hover{

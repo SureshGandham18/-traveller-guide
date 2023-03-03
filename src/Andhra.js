@@ -1,7 +1,8 @@
 import React from 'react';
+import styled from 'styled-components';
 export default function Andhra() {
   return (
-    <div>
+    <Cont>
       <div>1</div>
       <div>2</div>
       <div>3</div>
@@ -13,6 +14,6 @@ export default function Andhra() {
       <div>9</div>
       <div>10</div>
       <div></div>
-    </div>
+    </Cont>
   );
 }
