@@ -4,9 +4,11 @@ import { Link } from 'react-router-dom';
 const States = () => {
   return (
     <>
-      <Imag>
-        <h2>HAVE THE MOST UNIQUE EXPERIENCE</h2>
-      </Imag>
+      <center>
+        <Imag>
+          <h2>...HAVE THE MOST UNIQUE EXPERIENCE...</h2>
+        </Imag>
+      </center>
       <Container>
         <Box>
           <img
@@ -92,23 +94,16 @@ const States = () => {
 };
 export default States;
 const Imag = styled.div`
-background-image: url('https://4.imimg.com/data4/SV/GV/MY-10346591/tour-guide-for-jaipur-rajsthan-north-india-500x500.jpg');
-// background-repeat: no-repeat;
+background-image: url('https://media.istockphoto.com/id/1264553585/vector/tourists-and-tour-guide-travelling-people-group-with-camera-excursion-with-tour-cicerone.jpg?s=170667a&w=0&k=20&c=1rRAp6_iTC11YukcNkkcn3fD7gevoflAdRyv_Esus8Y=');
 background-size: cover;
-height: 400px;
-width: 1000px;
-align-items: center;
-margin-left: 12%;
-margin-top:-40px;
-margin-bottom: 80px;
-border-radius: 20%;
-// border:23px solid white;
+height: 480px;
+width: 90%;
+// border-radius:10%;
 h2{
-  font-size:45px;
-  padding:100px;
+  font-size:50px;
   color: black;
 }
-@media(max-width:1024px){
+@media(max-width:900px){
   height:50%;
   width:75%;
 }
@@ -143,5 +138,5 @@ const Box = styled.div`
         background-color: #009AEE;
         color:black;
     }
-}
+  }
 `;

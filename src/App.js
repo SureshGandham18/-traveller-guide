@@ -21,11 +21,11 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/states" element={<States />} />
-          <Route path="/andhra" element={<Andhra />} />
-          <Route path="/tamil" element={<Tamil />} />
-          <Route path="/telan" element={<Telan />} />
-          <Route path="/punjab" element={<Punjab />} />
-          <Route path="/karnataka" element={<Karnataka />} />
+          <Route path="/states/andhra" element={<Andhra />} />
+          <Route path="/stattes/tamil" element={<Tamil />} />
+          <Route path="/stattes/telan" element={<Telan />} />
+          <Route path="/stattes/punjab" element={<Punjab />} />
+          <Route path="/stattes/karnataka" element={<Karnataka />} />
         </Routes>
       </BrowserRouter>
     </div>
